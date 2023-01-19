@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+:root {
+  --cor0: #d1b3a3;
+  --cor1: #9e877b;
+  --cor2: #524640;
+  --cor3: #523627;
+  --cor4: #d98f68;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color: var(--cor0);
+}
+header {
+  background: var(--cor1) url(../imagens/background00.jpg) right bottom
+    no-repeat;
+
+  background-size: cover;
+}
+header div {
+  height: 50px;
+  padding: 40px 0px 50px 0px;
+}
+header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 3px;
+  padding: 5px 10px;
+  display: block;
+  margin: auto;
+
+  text-align: center;
+  color: white;
+  background-color: #523627bb;
+  width: fit-content;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.356);
+}
+menu {
+  display: none;
+}
+#burguer {
+  background-color: #332219;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+#burguer:hover {
+  background-color: var(--cor0);
+  color: black;
+  cursor: pointer;
+}
+menu a {
+  display: block;
+  background-color: var(--cor3);
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-top: 2px solid var(--cor1);
+  text-align: center;
+}
+menu a:hover {
+  background-color: var(--cor1);
+}
+menu ul {
+  list-style-type: none;
+}
+
+article {
+  padding: 15px;
+  background-color: white;
+  display: block;
+  margin: auto;
+  width: 80vw;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39);
+  border-radius: 3px;
+}
+article h1 {
+  text-align: center;
+  padding: 10px;
+}
+article h2 {
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px;
+}
+article p {
+  text-indent: 30px;
+  line-height: 1.2em;
+}
+
+footer {
+  background-color: var(--cor3);
+  font-size: 0.8em;
+  text-align: center;
+  color: white;
+}
+footer a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  background-color: var(--cor2);
+}
